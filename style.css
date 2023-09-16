@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.tvertical{
+    writing-mode:vertical-lr;
+    rotate: 180deg;
+    
+}
+.img
+{
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.logoimage img{
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(100%) contrast(0);
+    height: 28px;
+}
+@media (min-width: 768px){
+    .img{
+        height: 450px;
+        width: 350px;
+    }
+
+   
+}

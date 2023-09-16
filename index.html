@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>ecommerce</title>
+  </head>
+  <body>
+    <!-- heading part -->
+    <div class="relative z-20 md:h-16 w-full px-4 md:px-20 py-4 fixed">
+      <div class="flex w-full justify-between">
+        <div class="flex">
+          <div class="logoimage">
+            <img src="./image/logo.png" alt="logo" />
+          </div>
+
+          <div class="ml-2 mr-8">
+            <h1 class="font-bold">ROLEX</h1>
+          </div>
+          <div>
+            <ul class="font-bold hidden md:flex space-x-8">
+              <li
+                class="hover:text-orange-300 transition duration-100 delay-100"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="hover:text-orange-300 transition duration-100 delay-100"
+              >
+                <a href="#">Featured</a>
+              </li>
+              <li
+                class="hover:text-orange-300 transition duration-100 delay-100"
+              >
+                <a href="#">Products</a>
+              </li>
+              <li
+                class="hover:text-orange-300 transition duration-100 delay-100"
+              >
+                <a href="#">New</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="flex space-x-8">
+            <div>
+              <i class="fa-regular fa-moon"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-bars md:hidden"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- body part -->
+    <section class="px-4 md:px-20">
+      <div class="w-full">
+        <div class="space-y-8 pt-12 md:pt-44 opacity-50">
+          <h1 class="tvertical">Instagram</h1>
+          <h1 class="tvertical">Twitter</h1>
+          <h1 class="tvertical">Facebook</h1>
+        </div>
+        <div
+          class="absolute z-10 top-0 right-0 md:right-20 pt-20 pb-12 md:pb-8 bg-orange-300 w-3/5 md:w-2/5 md:max-w-md"
+        >
+          <div class="">
+            <img src="./image/bodyimg.png" alt="bodyimg" class="img m-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text part -->
+    <section class="md:absolute z-30 top-20 md:w-1/2 left-50 md:pl-28 lg:pl-44">
+      <section class="px-4 md:pt-16 lg:pt-28 pt-20">
+        <div>
+          <h1 class="font-bold text-3xl md:text-4xl whitespace-pre-line">
+            NEW WATCH
+            <span>COLLECTIONS B720</span>
+          </h1>
+        </div>
+      </section>
+      <!-- paragraph part -->
+      <section class="pt-6 px-4 pr-6">
+        <div>
+          <p class="text-gray-700 text-left md:text-xl leading-none">
+            Latest arrival of the new imported watches of the B720 series with a
+            modern & resistant design.
+          </p>
+        </div>
+        <div class="text-2xl font-bold text-orange-300">
+          <h1 class="pt-6">$1245</h1>
+        </div>
+      </section>
+      <!-- button part discover and add to cart -->
+      <section class="pl-4 pt-12 md:pt-2 lg:pt-8">
+        <div class="flex md:text-xl font-bold">
+          <button class="bg-zinc-400 p-4 md:p-2 lg:p-4">Discover</button>
+
+          <button class="bg-neutral-800 p-4 text-white">ADD TO CART</button>
+        </div>
+      </section>
+    </section>
+    <!-- feature section -->
+    <section class="pt-20 md:pt-40">
+      <div class="bg-orange-300 h-1 w-20 m-auto"></div>
+      <div class="pt-2">
+        <h2 class="font-bold text-2xl md:text-3xl text-center">FEATURED</h2>
+      </div>
+    </section>
+    <!-- images inside feature -->
+    <section class="md:grid grid-cols-3 gap-4 md:px-20">
+      <section class="px-4 md:px-0 pt-8 md:pt-20">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <div class="absolute px-2 py-4 bg-orange-300">
+            <h1 class="text-sm font-bold tvertical text-white">SALE</h1>
+          </div>
+          <img
+            src="./image/jazzmaster.png"
+            alt="jazz"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">JAZZMASTER</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $1050
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-4 md:px-0 pt-8 md:pt-20">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <div class="absolute px-2 py-4 bg-orange-300">
+            <h1 class="text-sm font-bold tvertical text-white">SALE</h1>
+          </div>
+          <img
+            src="./image/ingersoll.png"
+            alt="inner"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">INGERSOLL</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $250
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-4 md:px-0 pt-8 md:pt-20">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <div class="absolute px-2 py-4 bg-orange-300">
+            <h1 class="text-sm font-bold tvertical text-white">SALE</h1>
+          </div>
+          <img
+            src="./image/rosegold.png"
+            alt="rose"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">ROSE GOLD</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $890
+            </h2>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- our story part -->
+    <section class="pt-20 md:pt-32 md:pb-20">
+      <div class="bg-orange-300 h-1 w-20 m-auto"></div>
+      <div class="pt-2">
+        <h2 class="font-bold text-2xl md:text-3xl text-center">OUR STORY</h2>
+      </div>
+    </section>
+
+    <!-- our story paragraph -->
+    <section class="md:relative md:pb-40 lg:pb-60">
+      <section
+        class="md:absolute lg:absolute top-0 md:right-12 lg:right-0 md:w-1/3 lg:w-1/2"
+      >
+        <section class="px-4 pt-8 md:pt-0">
+          <div>
+            <h1 class="font-bold text-3xl md:text-4xl whitespace-pre-line">
+              Inspirational
+              <span> Watch of this year</span>
+            </h1>
+          </div>
+        </section>
+        <!-- paragraph part -->
+        <section class="pt-4 pl-4 pr-6">
+          <div>
+            <p class="text-gray-700 md:text-xl text-left leading-none">
+              The latest and modern watches of this year is available in various
+              presentations in this store,discover them now.
+            </p>
+          </div>
+        </section>
+
+        <!-- discover button -->
+        <section class="pl-4 pt-12">
+          <div
+            class="bg-black w-32 text-xl font-bold text-white text-center p-4  "
+          >
+            <button>Discover</button>
+          </div>
+        </section>
+      </section>
+      <!-- single watch  -->
+      <section class="md:absolute px-4 md:px-20 pt-20 md:pt-0">
+        <div>
+          <div
+            class="h-48 md:h-56 lg:h-96 w-48 md:w-56 lg:w-96 absolute ml-12 lg:ml-20 z-20"
+          >
+            <img src="./image/watch.png" alt="watch" />
+          </div>
+          <div
+            class="bg-orange-300 h-48 md:h-60 lg:h-96 w-48 md:w-60 lg:w-96 absolute mt-12 lg:mt-20 z-10"
+          ></div>
+        </div>
+      </section>
+    </section>
+    <!-- product part -->
+    <section class="pt-80 md:pt-96">
+      <div class="bg-orange-300 h-1 w-20 m-auto"></div>
+      <div class="pt-2">
+        <h2 class="font-bold text-2xl md:text-3xl text-center">PRODUCTS</h2>
+      </div>
+    </section>
+    <!-- products item -->
+    <section class="md:grid grid-cols-3 md:px-60">
+      <section class="px-16 md:px-4 pt-8">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <img
+            src="./image/sprit.png"
+            alt="sprit"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">SPRIT ROSE</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $1500
+            </h2>
+          </div>
+          <div class="absolute bottom-0 right-0 text-white bg-black px-1">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-16 md:px-4 pt-8">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <img
+            src="./image/khaki.png"
+            alt="sprit"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">KHAKI PILOT</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $1350
+            </h2>
+          </div>
+          <div class="absolute bottom-0 right-0 text-white bg-black px-1">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-16 md:px-4 pt-8">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <img
+            src="./image/JUBilee.png"
+            alt="jubilee"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">JUBILEE BLACK</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $870
+            </h2>
+          </div>
+          <div class="absolute bottom-0 right-0 text-white bg-black px-1">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-16 md:px-4 pt-8">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <img
+            src="./image/fosil.png"
+            alt="fosil"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">FOSIL ME3</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $650
+            </h2>
+          </div>
+          <div class="absolute bottom-0 right-0 text-white bg-black px-1">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-16 md:px-4 pt-8">
+        <div class="pt-8 pb-12 relative bg-slate-50">
+          <img
+            src="./image/duchen.png"
+            alt="duchen"
+            class="object-contain h-48 w-96 m-auto"
+          />
+          <div class="pt-4">
+            <h1 class="text-center text-xl font-bold">DUCHEN</h1>
+            <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+              $950
+            </h2>
+          </div>
+          <div class="absolute bottom-0 right-0 text-white bg-black px-1">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- introduction part -->
+    <section class="md:grid md:grid-cols-3 lg:grid-cols-2 md:pt-12 lg:pt-28 pb-8 md:pb-20 lg:pb-40">
+      <div class="px-6 md:px-20 pt-16 md:pt-36 md:col-span-2 lg:col-span-1">
+        <p class="text-gray-700 text-left md:text-xl leading-none lg:pt-20">
+          They are the best watches that one acquires, also they are always with
+          the latest news and trends, with a very comfortable price and
+          specially with the attention you receive, they are always attentive to
+          your questions.
+        </p>
+        <div class="px-6 md:px-0 pt-4">
+          <h1 class="font-bold text-xl md:text-2xl">March 27,2021</h1>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute right-0 top-20">
+          <div class="px-4 md:px-0 pt-20 relative">
+            <div
+              class="h-48 md:h-56 lg:h-96 w-48 md:w-56 lg:w-96 absolute right-14 top-10 md:right-40 lg:right-50 md:top-16 lg:top-30 z-30"
+            >
+              <img src="./image/hand.png" alt="watch" />
+            </div>
+
+            <div
+              class="bg-orange-300 h-48 md:h-56 lg:h-96 w-48 md:w-56 lg:w-96 absolute top-0 right-4 md:right-20 "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new arrivals part -->
+
+    <section class="pt-80 md:pt-8 lg:pt-40">
+      <div class="bg-orange-300 h-1 w-20 m-auto"></div>
+      <div class="pt-2">
+        <h2 class="font-bold text-2xl md:text text-center">NEW ARRIVALS</h2>
+      </div>
+    </section>
+
+    <!-- new arrivals products -->
+    <section
+      class="px-4 md:px-20 pt-8 space-y-8 md:space-y-0 md:space-x-8 md:grid grid-cols-4"
+    >
+      <div class="pb-12 relative bg-slate-50 hover:bg-orange-300">
+        <div
+          class="absolute px-4 top-0 right-4 py-2 bg-orange-300 transition duration-100 delay-100"
+        >
+          <h1 class="text-sm font-bold text-white">NEW</h1>
+        </div>
+        <img
+          src="./image/rosegold.png"
+          alt="rose"
+          class="object-contain h-48 w-96 pt-8 m-auto"
+        />
+        <div class="pt-4">
+          <h1 class="text-center text-xl font-bold">LONGINES ROSE</h1>
+          <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+            $980
+          </h2>
+        </div>
+      </div>
+
+      <div class="pb-12 relative bg-slate-100">
+        <div class="absolute px-4 top-0 right-4 py-2 bg-orange-300">
+          <h1 class="text-sm font-bold text-white">NEW</h1>
+        </div>
+        <img
+          src="./image/jazzmaster.png"
+          alt="rose"
+          class="object-contain h-48 w-96 pt-8 m-auto"
+        />
+        <div class="pt-4">
+          <h1 class="text-center text-xl font-bold">JAZZMASTER</h1>
+          <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+            $890
+          </h2>
+        </div>
+      </div>
+
+      <div class="pb-12 relative bg-slate-100">
+        <div class="absolute px-4 top-0 right-4 py-2 bg-orange-300">
+          <h1 class="text-sm font-bold text-white">NEW</h1>
+        </div>
+        <img
+          src="./image/khaki.png"
+          alt="rose"
+          class="object-contain h-48 w-96 pt-8 m-auto"
+        />
+        <div class="pt-4">
+          <h1 class="text-center text-xl font-bold">DREYFUSS GOLD</h1>
+          <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+            $890
+          </h2>
+        </div>
+      </div>
+
+      <div class="pb-12 relative bg-slate-100">
+        <div class="absolute px-4 top-0 right-4 py-2 bg-orange-300">
+          <h1 class="text-sm font-bold text-white">NEW</h1>
+        </div>
+        <img
+          src="./image/fosil.png"
+          alt="rose"
+          class="object-contain h-48 w-96 pt-8 m-auto"
+        />
+        <div class="pt-4">
+          <h1 class="text-center text-xl font-bold">PORTUGUESE GOLD</h1>
+          <h2 class="text-orange-300 text-center font-bold text-xl pt-2">
+            $890
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe part -->
+    <section class="px-4 md:px-20 pt-20">
+      <div
+        class="bg-orange-300 px-6 md:px-8 py-8 md:py-12 md:grid grid-cols-2 m-auto"
+      >
+        <div>
+          <div
+            class="text-center text-2xl md:text-3xl font-bold md:whitespace-pre-line md:text-left md:px-12"
+          >
+            <h2>Subscribe Our Newsletter</h2>
+          </div>
+          <div>
+            <p
+              class="text-gray-700 leading-none py-8 md:py-0 text-center md:text-left md:px-12 md:text-xl"
+            >
+              Don't miss out on your discounts. Subscribe to our email
+              newsletter to get the best offers, discounts, coupons, gifts and
+              much more.
+            </p>
+          </div>
+        </div>
+        <div class="md:grid grid-cols-3 m-auto">
+          <div class="py-2 md:py-0 md:col-start-1 md:col-span-2">
+            <!-- email part -->
+            <form action="">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="w-full p-4"
+              />
+            </form>
+          </div>
+          <div>
+            <button
+              class="bg-black text-white text-center py-4 px-2 w-full font-bold"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our information part -->
+    <section class="md:grid grid-cols-4 md:px-20 md:pt-28">
+      <section class="pt-20 md:pt-4 px-4 md:px-0">
+        <div>
+          <h2 class="font-bold text-xl md:text-2xl pb-4">Our information</h2>
+          <h3 class="pb-2 md:text-sm lg:text-xl">1234-peru</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">La Liberted 43210</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">123-456-789</h3>
+        </div>
+      </section>
+      <!-- about us part -->
+      <section class="px-4 md:px-0">
+        <div>
+          <h2 class="font-bold text-xl md:text-2xl py-4">About us</h2>
+          <h3 class="pb-2 md:text-sm lg:text-xl">Support Center</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">Customer Support</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">About Us</h3>
+          <h3 class="md:text-sm lg:text-xl">Copy Right</h3>
+        </div>
+      </section>
+      <!-- product part -->
+      <section class="px-4 md:px-0">
+        <div>
+          <h2 class="font-bold text-xl md:text-2xl py-4">Product</h2>
+
+          <h3 class="pb-2 md:text-sm lg:text-xl">Road bikes</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">Mountain bikes</h3>
+          <h3 class="pb-2 md:text-sm lg:text-xl">Electric</h3>
+          <h3 class="md:text-sm lg:text-xl">Accessories</h3>
+        </div>
+      </section>
+      <!-- social part -->
+      <section class="px-4 md:px-0">
+        <div>
+          <h2 class="font-bold text-xl md:text-2xl py-4">Social</h2>
+        </div>
+        <div class="flex space-x-8">
+          <div>
+            <i class="fa-brands fa-facebook-f md:text-sm lg:text-xl"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter md:text-sm lg:text-xl"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-instagram md:text-sm lg:text-xl"></i>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- footer part -->
+    <div class="p-8 md:p-16 opacity-60">
+      <p class="text-center">&copy Bedimcode.All rights reserved</p>
+    </div>
+  </body>
+</html>
